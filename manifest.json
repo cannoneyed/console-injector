@@ -1,5 +1,5 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
+  "name": "Console Injector",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "console.inject lets you install your favorite libraries from the console",
