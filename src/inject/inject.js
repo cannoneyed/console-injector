@@ -27,9 +27,11 @@ chrome.extension.sendMessage({}, function(response) {
         'backbone' : 'https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js'
       }
 
+      var url = libraryUrls[library];
       var lib =document.createElement('script');
-      lib.src = libraryUrls[library];
+      lib.src = url;
       document.head.appendChild(lib);
+      return console.log('library injected from ' + url);
     }
 
     elt.innerHTML = 'console.inject = ' + ci.toString();

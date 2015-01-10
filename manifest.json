@@ -1,5 +1,5 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
+  "name": "Console Injector",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "console.inject lets you install your favorite libraries from the console",
@@ -11,13 +11,11 @@
     "default_popup" : "src/popup.html"
   },
   "default_locale": "en",
-  "permissions": [
-    "https://*/* "
-  ],
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/*"
+        "https://*/*",
+        "http://*/*"
       ],
       "js": [
         "src/inject/inject.js"
