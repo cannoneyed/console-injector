@@ -2,32 +2,15 @@
 
 # Console Injector
 
-Console injector allows easy injection of javascript scripts into any page from the console. 
+Console injector is a chrome extension allowing easy injection of javascript scripts into any page from the console. 
 
 ```
 console.inject('jquery');
 ```
 
-[cdnjs](http://github.com/cdnjs/cdnjs) is the repository mirroring all library assets on [cdnjs.cloudflare.com](http://cdnjs.cloudflare.com).
+This is very handy for quickly testing ideas in the console and rapidly injecting code into existing sites. Console.inject searches [cdnjs](http://github.com/cdnjs/cdnjs) for javascript libraries matching a given input string, and inserts the latest corresponding script hosted at [cdnjs.cloudflare.com](http://cdnjs.cloudflare.com).
 
-[Thomas Davis](https://twitter.com/neutralthoughts) and [Ryan Kirkman](https://twitter.com/ryan_kirkman) created cdnjs, [Drew Freyling](http://decompile.it/blog/) and [Peter Dave Hello](https://github.com/PeterDaveHello) are maintainers. [Juan Gallardo](http://www.jgallardo.me/) is our community moderator.
-
-cdnjs will host any production version of any JavaScript/CSS library, subject to licence permissions.
-
-  * Beta, release candidate and alpha releases are not usually considered ready for full production status. Requests for pre-release versions of libraries _may_ be declined after peer review.
-  * We'll accept beta, release candidate and alpha releases if you are using our npm/git auto-update mechanism, if you really want it, please setup auto-update for that lib.
-
-Please raise a new pull request for new library additions and existing library updates, following the instructions below.
-
-## IMPORTANT - No more manual submissions
-
-[Discussion](https://github.com/cdnjs/cdnjs/issues/3638)
-
-It's time for us to move away from manual submissions and focus solely on getting libraries updating from official sources. Everything is still flakey and we hope you can bear with us in this transition. 
-
-*All pull request should just add auto update configs to the package.json*
-
-
+Console injector was the product of a hackathon team at [Hack Reactor](http://www.hackreactor.com) consisting of [Andy Coenen](http://www.github.com/cannoneyed), [Wesley Smyth](http://www.github.com/wesleysmyth), [Kiran Rao](http://www.github.com/kranrao), [Henry Wong](http://www.github.com/henryw4k), and [Matt Conrad](http://www.github.com/mmconrad).
 
 
 
