@@ -1,14 +1,11 @@
 {
   "name": "Console Injector",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "manifest_version": 2,
   "description": "console.inject lets you install your favorite libraries from the console",
-  "homepage_url": "http://extensionizr.com",
+  "homepage_url": "http://cannoneyed.github.io",
   "icons": {
     "128": "icons/icon128.png"
-  },
-  "browser_action" : {
-    "default_popup" : "src/popup.html"
   },
   "default_locale": "en",
   "content_scripts": [

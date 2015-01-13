@@ -36,7 +36,8 @@ chrome.extension.sendMessage({}, function(response) {
           }
         }
 
-        xmlhttp.open("GET", 'https://api.cdnjs.com/libraries?search=' + library, true);
+        var searchString = 'https://api.cdnjs.com/libraries?search=' + library;
+        xmlhttp.open("GET", searchString, true);
         xmlhttp.send();
       }
 
