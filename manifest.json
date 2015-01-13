@@ -1,6 +1,6 @@
 {
   "name": "Console Injector",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "manifest_version": 2,
   "description": "console.inject lets you install your favorite libraries from the console",
   "homepage_url": "http://extensionizr.com",
