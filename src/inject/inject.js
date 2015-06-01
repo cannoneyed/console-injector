@@ -23,7 +23,7 @@ chrome.extension.sendMessage({}, function(response) {
               }, undefined);
 
               if (foundLib) {
-                var url = foundLib.latest.replace('http', 'https');
+                var url = foundLib.latest.replace('http:', 'https:');
                 var libScript =document.createElement('script');
                 libScript.src = url;
                 document.head.appendChild(libScript);
