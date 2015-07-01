@@ -2,7 +2,7 @@
 
 # Console Injector
 
-Console Injector is a chrome extension allowing easy injection of javascript scripts into any page from the console. 
+Console Injector is a chrome extension allowing easy injection of javascript libraries into any page from the console. 
 
 ```
 console.inject('lodash');
