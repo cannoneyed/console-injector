@@ -5,7 +5,7 @@
 Console Injector is a chrome extension allowing easy injection of javascript scripts into any page from the console. 
 
 ```
-console.inject('jquery');
+console.inject('lodash');
 ```
 
 This is very handy for quickly testing ideas in the console and rapidly injecting code into existing sites. Console Injector searches [cdnjs](https://cdnjs.com/) for javascript libraries matching a given input string, and inserts the latest corresponding script hosted at [cdnjs.cloudflare.com](http://cdnjs.cloudflare.com).
