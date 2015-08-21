@@ -1,6 +1,6 @@
 {
   "name": "Console Injector",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifest_version": 2,
   "description": "Easily inject javascript libraries from the console",
   "homepage_url": "http://cannoneyed.github.io",
